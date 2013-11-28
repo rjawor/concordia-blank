@@ -104,11 +104,6 @@ configure_file (
   "${concordia_SOURCE_DIR}/prod/resources/concordia-config/concordia.cfg"
   )
 
-configure_file (
-  "${concordia_SOURCE_DIR}/tests/resources/concordia-config/concordia.cfg.in"
-  "${concordia_SOURCE_DIR}/tests/resources/concordia-config/concordia.cfg"
-  )
-
 
 # ================================================
 # Concordia: sub-projects
